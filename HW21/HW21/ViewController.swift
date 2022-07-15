@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var label: UILabel!
     
     var isBlack: Bool = false {
         didSet {
@@ -47,6 +49,8 @@ class ViewController: UIViewController {
         }
         
         print(password)
+    }
+    @IBAction func pressButton(_ sender: Any) {
     }
 }
 
