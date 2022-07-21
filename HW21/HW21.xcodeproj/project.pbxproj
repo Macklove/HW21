@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD18265B288982BC009EE05C /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18265A288982BC009EE05C /* BruteForce.swift */; };
+		AD18265D288982CD009EE05C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18265C288982CD009EE05C /* Extension.swift */; };
 		AD1A4EC42881EB8C0045D2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A4EC32881EB8C0045D2BD /* AppDelegate.swift */; };
 		AD1A4EC62881EB8C0045D2BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A4EC52881EB8C0045D2BD /* SceneDelegate.swift */; };
 		AD1A4EC82881EB8C0045D2BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A4EC72881EB8C0045D2BD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD18265A288982BC009EE05C /* BruteForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForce.swift; sourceTree = "<group>"; };
+		AD18265C288982CD009EE05C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		AD1A4EC02881EB8C0045D2BD /* HW21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1A4EC32881EB8C0045D2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1A4EC52881EB8C0045D2BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD182654288980E2009EE05C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A4EC32881EB8C0045D2BD /* AppDelegate.swift */,
+				AD1A4EC52881EB8C0045D2BD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD18265528898109009EE05C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A4ECC2881EB8C0045D2BD /* Assets.xcassets */,
+			);
+			name = Config;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AD18265628898118009EE05C /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A4EC92881EB8C0045D2BD /* Main.storyboard */,
+				AD1A4ECE2881EB8C0045D2BD /* LaunchScreen.storyboard */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
+		AD1826572889812D009EE05C /* BruteForce */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A4EC72881EB8C0045D2BD /* ViewController.swift */,
+				AD18265A288982BC009EE05C /* BruteForce.swift */,
+				AD18265C288982CD009EE05C /* Extension.swift */,
+			);
+			path = BruteForce;
+			sourceTree = "<group>";
+		};
+		AD18265828898149009EE05C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AD1826572889812D009EE05C /* BruteForce */,
+				AD182654288980E2009EE05C /* App */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AD182659288981E7009EE05C /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				AD18265628898118009EE05C /* IB */,
+				AD18265528898109009EE05C /* Config */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
 		AD1A4EB72881EB8C0045D2BD = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +115,8 @@
 		AD1A4EC22881EB8C0045D2BD /* HW21 */ = {
 			isa = PBXGroup;
 			children = (
-				AD1A4EC32881EB8C0045D2BD /* AppDelegate.swift */,
-				AD1A4EC52881EB8C0045D2BD /* SceneDelegate.swift */,
-				AD1A4EC72881EB8C0045D2BD /* ViewController.swift */,
-				AD1A4EC92881EB8C0045D2BD /* Main.storyboard */,
-				AD1A4ECC2881EB8C0045D2BD /* Assets.xcassets */,
-				AD1A4ECE2881EB8C0045D2BD /* LaunchScreen.storyboard */,
+				AD18265828898149009EE05C /* Source */,
+				AD182659288981E7009EE05C /* Resouces */,
 				AD1A4ED12881EB8C0045D2BD /* Info.plist */,
 			);
 			path = HW21;
@@ -138,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD18265D288982CD009EE05C /* Extension.swift in Sources */,
+				AD18265B288982BC009EE05C /* BruteForce.swift in Sources */,
 				AD1A4EC82881EB8C0045D2BD /* ViewController.swift in Sources */,
 				AD1A4EC42881EB8C0045D2BD /* AppDelegate.swift in Sources */,
 				AD1A4EC62881EB8C0045D2BD /* SceneDelegate.swift in Sources */,
